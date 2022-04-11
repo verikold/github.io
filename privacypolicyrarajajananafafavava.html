@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./stylerarajajananafafavava.css">
+    <link rel="stylesheet" href="./custom_styledadajajananafafavava.css">
+    <link rel="shortcut icon" href="./img/favicorarajajananafafavava.ico" type="img/x-icon">
+    <script src="./script/customrarajajananafafavava.js"></script>
+    <script src="./script/cdn.js"></script>
+		<title>verikold</title>
+
+	</head>
+	<body class="bg-white font-sans" x-data="{ openMenu : false }" :class="openMenu ? 'overflow-hidden' : 'overflow-visible' ">
+        <!--PRELOADER-->
+        <div id='preloader'>
+            <img src="./img/preloaderrarajajananafafavava.gif" alt="preloader">
+        </div>
+
+  <header class="flex justify-between items-center bg-white drop-shadow-sm py-4 px-8">
+
+    <!-- Logo -->
+    <a href="./index.html" class="text-lg font-bold">verikold</a>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="flex md:hidden flex-col items-center align-middle" @click="openMenu = !openMenu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+      <span class="text-xs">Menu</span>
+    </button>
+
+    <!-- Main Navigations -->
+    <nav class="hidden md:flex">
+
+      <ul class="flex flex-row gap-2">
+        <li>
+          <a href="./index.html" class="inline-flex py-2 px-3 bg-slate-200 rounded" aria-current="true">Maison</a>
+        </li>
+        <li>
+          <a href="./contactushshsjajananafafavava.html" class="inline-flex py-2 px-3 hover:bg-slate-200 rounded">Nous contacter</a>
+        </li>
+        <li>
+          <a href="./privacypolicyrarajajananafafavava.html" class="inline-flex py-2 px-3 hover:bg-slate-200 rounded">Politique de confidentialité</a>
+        </li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+  <!-- Pop Out Navigation -->
+  <nav class="fixed top-0 right-0 bottom-0 left-0 backdrop-blur-sm z-10" :class="openMenu ? 'visible' : 'invisible' ">
+
+    <!-- UL Links -->
+    <ul class="absolute top-0 right-0 bottom-0 w-10/12 py-4 bg-white drop-shadow-2xl z-10 transition-all"
+      :class="openMenu ? 'translate-x-0' : 'translate-x-full'">
+
+      <li class="border-b border-inherit">
+        <a href="./index.html" class="block p-4" aria-current="true">Maison</a>
+      </li>
+      <li class="border-b border-inherit">
+        <a href="./contactushshsjajananafafavava.html" class="block p-4">Nous contacter</a>
+      </li>
+      <li class="border-b border-inherit">
+        <a href="./privacypolicyrarajajananafafavava.html" class="block p-4">Politique de confidentialité</a>
+      </li>
+    </ul>
+
+    <!-- Close Button -->
+    <button class="absolute top-0 right-0 bottom-0 left-0" @click="openMenu = !openMenu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+  </nav>
+
+<div class="py-16 bg-white">
+  <div  class="container m-auto px-6 space-y-8 text-gray-500 md:px-12 lg:px-20">
+      <div class="justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16">
+          <div class="order-last mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12">
+              <h1 class="text-4xl text-gray-700 font-bold md:text-5xl">Nos meilleurs articles de psychologue sur les relations.</h1>
+              <p class="text-lg">Ici, vous trouverez des articles des meilleurs psychologues sur la relation.</p>
+          </div>
+          <div class="grid grid-cols-5 grid-rows-4 gap-4 md:w-5/12 lg:w-6/12">
+              <div class="col-span-2 row-span-4">
+                  <img src="./img/carous1rarajajananafafavava.jpg" class="rounded-full" width="640" height="960" alt="shoes" loading="lazy">
+              </div>
+              <div class="col-span-2 row-span-2">
+                  <img src="./img/carous3rarajajananafafavava.jpg" class="w-full h-full object-cover object-top rounded-xl" width="640" height="640" alt="shoe" loading="lazy">
+              </div>
+              <div class="col-span-3 row-span-3">
+                  <img src="./img/page1imagerarajajananafafavava.jpg" class="w-full h-full object-cover object-top rounded-xl" width="640" height="427" alt="shoes" loading="lazy">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+          <div class="container w-full md:max-w-3xl mx-auto pt-20">
+
+            <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+        
+              <!--Title-->
+              <div class="font-sans">
+                <a href="./index.html" class="text-base md:text-sm text-green-500 font-bold">&lt; <a href="./index.html" class="text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Terug naar de blog</a></p>
+                    <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">Politique de confidentialité</h1>
+              </div>
+        
+        
+              <!--Lead Para-->
+        
+              <p class="py-6">Cette politique de confidentialité explique comment vos données personnelles sont utilisées et sont partagées lorsque vous visitez ou achetez-la sur le site.</p>
+              <p class="py-6">Informations personnelles que nous avons collectées.</p>
+              <p class="py-6">Lorsque vous visitez le site, nous collectons automatiquement des informations sur le périphérique, y compris des informations sur votre navigateur Web, votre adresse IP, votre fuseau horaire, votre fuseau horaire et vos cookies spécifiques installés sur votre périphérique.In addition lorsque vous naviguez deux fois sur la navigation, si vous Voulez-vous collecter des informations sur tout site Web ou des visites Web et des termes de recherche, visitez le site Web et les informations lors de la communication avec le site Web. Ces informations recueillent automatiquement les "informations d'appel de tonalité".</p>
+              <p class="py-6">Nous collectons des informations sur l'appareil avec des technologies imprimées:</p>
+              <p class="py-6">Les "fichiers journaux" suivent les tâches effectuées sur le site Web et la collecte de données, y compris l'adresse IP, le type de navigateur, le fournisseur Internet, les pages de connexion / sortie et les marqueurs de données.</p>
+              <p class="py-6">"Web becks", "tag" et "pixel" sont des fichiers électroniques avec des informations sur la navigation du site.</p>
+              <p class="py-6">Numéro de téléphone Cette information s'appelle "Informations de la commande".</p>
+              <p class="py-6">Si nous parlons de "informations personnelles" dans cette politique de confidentialité, nous parlons également de périphériques et demandons des informations.</p>
+              <p class="py-6">Comment utilisons-nous vos informations personnelles?</p>
+              <p class="py-6">Les informations de contrôle généralement collectées sont utilisées pour répondre aux commandes de stand (y compris le traitement des informations de paiement, l'organisation de livraison et la confirmation de factures et / ou de confirmation de confirmation).</p>
+              <p class="py-6">Nous utilisons les données de données que nous appliquons pour confirmer les risques et la fraude potentiels (en particulier votre adresse IP) et pour améliorer et optimiser notre site Web.</p>
+              <p class="py-6">Partager des informations personnelles.</p>
+              <p class="py-6">Nous partageons vos données personnelles avec des tiers pour nous aider à utiliser vos données personnelles comme décrit ci-dessus.Nous utilisons également Google Analytics pour comprendre comment nos clients utilisent le site Web: obtenir plus d'informations sur la manière dont Google utilise vos informations personnelles: HTTPS: // www.Google .Com / Intl / ES / FR / Fruciairire / Smoen Vous annulez la connexion Annixe Google Analytics à https://tools.google.com/dlpage/gaoptout.</p>
+              <p class="py-6">Enfin, nous pouvons partager vos informations personnelles pour répondre aux lois et règlements applicables, à répondre aux contributions, aux ordonnances de record ou à d'autres consultations légitimes ou à protéger nos droits.</p>
+              <p class="py-6">Spectacle</p>
+              <p class="py-6">Comme décrit ci-dessus, nous utilisons vos informations personnelles pour offrir une communication directe ou marketing qui s'intéresse à notre opinion.</p>
+              <p class="py-6">Il peut être exclu de la connexion LED de la gauche gauche:</p>
+              <p class="py-6">Facebook: https://www.facebook.com/settings/?tab=ads</p>
+              <p class="py-6">Google: https://www.google.com/settings/ads/anonymous</p>
+              <p class="py-6">Bing: https://advertise.bingads.microsoft.com/en-us/resources/policies/personalized-ads</p>
+              <p class="py-6">Vous pouvez également désactiver ces services en visitant la ventilation publicitaire du portail de verrouillage numérique .: http://optout.aboutads.info/.</p>
+              <p class="py-6">Suivre</p>
+              <p class="py-6">N'oubliez pas que nous ne modifions pas la collecte de données et nous n'utilisons pas les pratiques de notre site Web si vous ne suivez pas le signal de votre navigateur.</p>
+              <p class="py-6">Tes droits</p>
+              <p class="py-6">Si vous êtes un résident européen, vous avez le droit d'accéder à vos données personnelles stockées dans vous et rectifier, mettre à jour ou supprimer des données personnelles.Si vous souhaitez pratiquer correctement, les contacts ne sont pas mis à jour dans les informations de contact suivantes.</p>
+              <p class="py-6">Si vous êtes un résident européen, nous répondons à vos données à vos données pour répondre à nos contrats avec vous (par exemple, via le site Web) ou autrement, sinon, sinon, sinon, sinon, confirmez nos intérêts commerciaux légitimes. Les données sont transférées en Europe, y compris le Canada et les États-Unis.</p>
+              <p class="py-6">Préservation</p>
+              <p class="py-6">Si le pregunta al sitio web, consideramos la orden de pedido de nuestros registros a menos que le solicite que elimine esta información.</p>
+              <p class="py-6">Modicité.</p>
+              <p class="py-6">Nous pouvons mettre à jour cette politique de confidentialité de temps en temps, par exemple, de reproduire des modifications de nos pratiques ou d'autres raisons opérationnelles, juridiques ou juridiques.</p>
+
+                        
+        
+      
+        
+        
+        
+          </div>
+          </div>
+
+
+        <footer class="bg-gray-600 py-8 md:py-16">
+
+          <div class="container max-w-screen-xl mx-auto px-4">
+
+              <div class="lg:flex flex-col md:flex-row text-center lg:text-left lg:justify-between">
+                  <div class="mb-10 lg:mb-0">
+  
+                      <p class="font-normal text-gray-400 text-md">Le meilleur blog sur la psychologie des relations.</p>
+                  </div>
+
+                  <div class="space-y-4 mb-10 lg:mb-0">
+                      <h4 class="font-semibold text-gray-500 text-lg mb-6">Navigation rapide</h4>
+
+                      <a href="./index.html" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Maison</a>
+
+                      <a href="./privacypolicyrarajajananafafavava.html" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Politique de confidentialité</a>
+
+                      <a href="./contactushshsjajananafafavava.html" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Connecte-toi avec nous</a>
+
+                  </div>
+
+                  <div class="space-y-4 mb-10 lg:mb-0">
+                      <h4 class="font-semibold text-gray-500 text-lg mb-6">Liens sociaux</h4>
+
+                      <a href="https://twitter.com" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Twitter</a>
+
+                      <a href="https://facebook.com" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">facebook</a>
+
+                      <a href="https://youtube.com" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">youtube</a>
+                  </div>
+
+                  <div class="space-y-4">
+                      <h4 class="font-semibold text-gray-500 text-lg mb-6">Notre adresse</h4>
+
+                      <p class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">86 cours Jean Jaures, 33100, Bordeaux, France</p>
+
+                      <p class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">0510951868</p>
+
+                      <p class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">info@verikold.com</p>
+                  </div>
+              </div>
+
+              <hr class="text-gray-300 mt-10">
+
+              <p class="font-normal text-gray-400 text-md text-center mt-5">&copy; 2022 verikold. All rights reserved.</p>
+
+          </div> <!-- container.// -->
+
+      </footer>
+  </div>
+
+
+
+                        
+                
+                    </body>
+                </html>
+                

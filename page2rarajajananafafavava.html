@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./stylerarajajananafafavava.css">
+    <link rel="stylesheet" href="./custom_styledadajajananafafavava.css">
+    <link rel="shortcut icon" href="./img/favicorarajajananafafavava.ico" type="img/x-icon">
+    <script src="./script/customrarajajananafafavava.js"></script>
+    <script src="./script/cdn.js"></script>
+		<title>verikold</title>
+
+	</head>
+	<body class="bg-white font-sans" x-data="{ openMenu : false }" :class="openMenu ? 'overflow-hidden' : 'overflow-visible' ">
+        <!--PRELOADER-->
+        <div id='preloader'>
+            <img src="./img/preloaderrarajajananafafavava.gif" alt="preloader">
+        </div>
+
+  <header class="flex justify-between items-center bg-white drop-shadow-sm py-4 px-8">
+
+    <!-- Logo -->
+    <a href="./index.html" class="text-lg font-bold">verikold</a>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="flex md:hidden flex-col items-center align-middle" @click="openMenu = !openMenu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+      <span class="text-xs">Menu</span>
+    </button>
+
+    <!-- Main Navigations -->
+    <nav class="hidden md:flex">
+
+      <ul class="flex flex-row gap-2">
+        <li>
+          <a href="./index.html" class="inline-flex py-2 px-3 bg-slate-200 rounded" aria-current="true">Maison</a>
+        </li>
+        <li>
+          <a href="./contactushshsjajananafafavava.html" class="inline-flex py-2 px-3 hover:bg-slate-200 rounded">Nous contacter</a>
+        </li>
+        <li>
+          <a href="./privacypolicyrarajajananafafavava.html" class="inline-flex py-2 px-3 hover:bg-slate-200 rounded">Politique de confidentialité</a>
+        </li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+  <!-- Pop Out Navigation -->
+  <nav class="fixed top-0 right-0 bottom-0 left-0 backdrop-blur-sm z-10" :class="openMenu ? 'visible' : 'invisible' ">
+
+    <!-- UL Links -->
+    <ul class="absolute top-0 right-0 bottom-0 w-10/12 py-4 bg-white drop-shadow-2xl z-10 transition-all"
+      :class="openMenu ? 'translate-x-0' : 'translate-x-full'">
+
+      <li class="border-b border-inherit">
+        <a href="./index.html" class="block p-4" aria-current="true">Maison</a>
+      </li>
+      <li class="border-b border-inherit">
+        <a href="./contactushshsjajananafafavava.html" class="block p-4">Nous contacter</a>
+      </li>
+      <li class="border-b border-inherit">
+        <a href="./privacypolicyrarajajananafafavava.html" class="block p-4">Politique de confidentialité</a>
+      </li>
+    </ul>
+
+    <!-- Close Button -->
+    <button class="absolute top-0 right-0 bottom-0 left-0" @click="openMenu = !openMenu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-2 left-2" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+  </nav>
+
+
+<div class="py-16 bg-white">
+  <div  class="container m-auto px-6 space-y-8 text-gray-500 md:px-12 lg:px-20">
+      <div class="justify-center text-center gap-6 md:text-left md:flex lg:items-center  lg:gap-16">
+          <div class="order-last mb-6 space-y-6 md:mb-0 md:w-6/12 lg:w-6/12">
+              <h1 class="text-4xl text-gray-700 font-bold md:text-5xl">Nos meilleurs articles de psychologue sur les relations.</h1>
+              <p class="text-lg">Ici, vous trouverez des articles des meilleurs psychologues sur la relation.</p>
+          </div>
+          <div class="grid grid-cols-5 grid-rows-4 gap-4 md:w-5/12 lg:w-6/12">
+              <div class="col-span-2 row-span-4">
+                  <img src="./img/carous1rarajajananafafavava.jpg" class="rounded-full" width="640" height="960" alt="shoes" loading="lazy">
+              </div>
+              <div class="col-span-2 row-span-2">
+                  <img src="./img/carous3rarajajananafafavava.jpg" class="w-full h-full object-cover object-top rounded-xl" width="640" height="640" alt="shoe" loading="lazy">
+              </div>
+              <div class="col-span-3 row-span-3">
+                  <img src="./img/page1imagerarajajananafafavava.jpg" class="w-full h-full object-cover object-top rounded-xl" width="640" height="427" alt="shoes" loading="lazy">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+          <div class="container w-full md:max-w-3xl mx-auto pt-20">
+
+            <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+        
+              <!--Title-->
+              <div class="font-sans">
+                <a href="./index.html" class="text-base md:text-sm text-green-500 font-bold">&lt; <a href="./index.html" class="text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Retour au blog</a></p>
+                    <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">12 choses dans lesquelles les gens ont tort des relations</h1>
+                    <p class="text-sm md:text-base font-normal text-gray-600">Publié il y a 2 heures</p>
+              </div>
+        
+        
+              <!--Lead Para-->
+              <p class="py-6">12 choses dans lesquelles les gens ont tort des relations</p>
+              <p class="py-6">Les problèmes ne disparaissent pas et vous ne devez pas toujours être heureux.</p>
+              <p class="py-6">Que se passe-t-il si tout ce que vous pensez savoir sur les relations est faux?</p>
+              <p class="py-6">C'est bon, peut-être pas tout, mais les relations sont compliquées et votre entraînement est limité.Pensez simplement: Comment avez-vous appris les relations?Peut-être avez-vous appris des conseils de vos parents, de regarder la télévision, de bavarder avec des amis ou d'un bon essai et d'une bonne erreur.Malheureusement, ces sources ne peuvent pas garantir une véritable expérience sur la manière d'avoir une relation saine.Le résultat?Il est impossible de savoir si vous faites confiance à un fait bien établi ou dans une fiction bien intentionnée.</p>
+              <p class="py-6">Pour laisser les choses claires, j'ai contacté un groupe d'étoiles des meilleurs experts des relations pour obtenir leurs points de vue.Plus précisément, je leur ai demandé quelles paires sont plus courtes, ou en d'autres termes, des mythes, des erreurs et des taches aveugles qui, sans savoir, sapent des relations.En outre, ils ont donné des conseils sur la façon de bien faire.</p>
+              <p class="py-6">Helen Fisher: Anthropologue biologique, recherche principale à l'Institut de Kinsey et principal conseiller scientifique de Match.com;Auteur d'une anatomie d'amour.</p>
+              <p class="py-6">Les hommes sont mal compris: la pandémie a produit un changement historique de la cour: vers la croissance post-traumatique.Avant Covid, 58% des célibataires voulaient s'établir eux-mêmes;Aujourd'hui, 76% veulent une relation compromise et les hommes ouvrent la voie.</p>
+              <p class="py-6">Les gens mal interpréter les hommes.Dans mes études de Match.com sur plus de 55 000 Américains célibataires (non seulement des membres du match), les hommes ont tendance à tomber amoureux plus rapidement et plus fréquemment;Ils veulent se déplacer ensemble plus rapidement et sont plus susceptibles de croire qu'une "connexion" peut conduire à l'amour.De nos jours, les hommes sont beaucoup plus susceptibles de vouloir une relation compromise au cours de la prochaine année.L'engagement est le nouveau sexy.</p>
+              <p class="py-6">Pour une relation plus forte, concentrez-vous davantage sur l'amour de l'entreprise ou de la manière dont votre partenaire est votre meilleur ami, observez des facteurs tels que des intérêts partagés, le temps que vous aimez dépenser ensemble et votre respect mutuel.Ce sont la vraie clé de l'amour durable.</p>
+              <p class="py-6">Le mythe de l'âme jumelle: près des deux tiers des Américains croient dans les âmes jumelles, ou dans l'idée qu'il y a une seule personne qui est leur partenaire idéal.Bien que ce soit une belle idée d'une comédie romantique ou d'un conte de fées, il mène des personnes célibataires à être constamment à la recherche de la perfection chez les personnes avec lesquelles ils sortent lors de la recherche de ce sentiment magique de "âme sœur", un sentiment qui est finalement inaccessible.</p>
+              <p class="py-6">Dans les relations, la croyance des âmes jumelles nous empêche d'accepter les défauts de notre partenaire et de les voir comme des êtres humains imparfaits qui apprennent et se développent avec nous.La réalité est qu'il existe de nombreuses coïncidences possibles pour vous et il est vraiment de trouver quelqu'un à aligner avec vos valeurs et vos objectifs pour l'avenir avec qui vous vous associez à ce voyage sauvage que nous appelons la vie.</p>
+              <p class="py-6">S'il y a un problème dans la relation, chaque fois que les deux personnes sont prêtes à la surmonter, les choses peuvent s'améliorer et vous pouvez restaurer votre niveau de bonheur.Les relations vont et changent pour toujours, il est donc essentiel d'être flexible et d'adapter les changements.Alors qu'ils grandissent ensemble et ne se séparent pas, leur relation est en excellente forme!</p>
+              <p class="py-6">Mais la vérité est qu'il y a probablement tant de versions d'amour que les gens.Vous avez des personnes avec un style de joignement sûr, pour qui l'amour peut se sentir agréable, paisible et sûr, tandis que, d'autre part, vous avez des personnes avec un style d'attachement non sécurisé, où l'émotion de l'amour peut être combinée à des sentiments de peur et d'anxiété .Et ces personnes peuvent être ensemble dans une relation!</p>
+              <p class="py-6">Savoir et avoir de la compassion pour les styles de dépendance de l'autre est la clé d'amour.Il y a plus d'une bonne manière d'être humain et il y a de nombreuses façons de ressentir de l'amour.</p>
+              <p class="py-6">Malheureusement, l'amour seul ne suffit pas à maintenir une relation.Vous et votre partenaire devez participer activement à déterminer si vos problèmes ont une solution ou sont perpétuels.Ce dernier type de problèmes est particulièrement important car ils ne disparaîtront pas, ils seront avec vous pendant toute la relation.</p>
+        
+      
+        
+        
+        
+          </div>
+          </div>
+
+
+        <footer class="bg-gray-600 py-8 md:py-16">
+
+          <div class="container max-w-screen-xl mx-auto px-4">
+
+              <div class="lg:flex flex-col md:flex-row text-center lg:text-left lg:justify-between">
+                  <div class="mb-10 lg:mb-0">
+  
+                      <p class="font-normal text-gray-400 text-md">Le meilleur blog sur la psychologie des relations.</p>
+                  </div>
+
+                  <div class="space-y-4 mb-10 lg:mb-0">
+                      <h4 class="font-semibold text-gray-500 text-lg mb-6">Navigation rapide</h4>
+
+                      <a href="./index.html" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Maison</a>
+
+                      <a href="./privacypolicyrarajajananafafavava.html" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Politique de confidentialité</a>
+
+                      <a href="./contactushshsjajananafafavava.html" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Connecte-toi avec nous</a>
+
+                  </div>
+
+                  <div class="space-y-4 mb-10 lg:mb-0">
+                      <h4 class="font-semibold text-gray-500 text-lg mb-6">Liens sociaux</h4>
+
+                      <a href="https://twitter.com" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">Twitter</a>
+
+                      <a href="https://facebook.com" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">facebook</a>
+
+                      <a href="https://youtube.com" class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">youtube</a>
+                  </div>
+
+                  <div class="space-y-4">
+                      <h4 class="font-semibold text-gray-500 text-lg mb-6">Notre adresse</h4>
+
+                      <p class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">86 cours Jean Jaures, 33100, Bordeaux, France</p>
+
+                      <p class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">0510951868</p>
+
+                      <p class="block font-normal text-gray-400 text-md hover:text-gray-700 transition ease-in-out duration-300">info@verikold.com</p>
+                  </div>
+              </div>
+
+              <hr class="text-gray-300 mt-10">
+
+              <p class="font-normal text-gray-400 text-md text-center mt-5">&copy; 2022 verikold. All rights reserved.</p>
+
+          </div> <!-- container.// -->
+
+      </footer>
+  </div>
+
+
+
+                        
+                
+                    </body>
+                </html>
+                
